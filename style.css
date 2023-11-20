@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&family=Dancing+Script:wght@500&family=Roboto:wght@300&display=swap');
+header{
+    background-color:purple;
+    height:60px;
+    color:white;
+    border:2px solid pink;
+    
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+main{
+    width:100%;
+    height:100%;
+    background-color:rgba(102, 125, 242, 0.533);
+    display:flex;
+    justify-content:center;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.box{
+    width:600px;
+    min-height:800px;
+    background-color: white;
+    border-radius:5px;
+    padding:15px;
+}
+#item{
+    padding:10px;
+    font-size:20px;
+    width:100%;
+    border:0;
+    outline:0;
+    box-shadow:0px 0px 2px grey;
+    display:block;
+}
+#to-do-box li{
+  list-style:none;
+  margin-top:40px;
+  background-color:grey;
+  border-radius:5px;
+  padding:10px;
+  position:relative; 
+  padding-right:28px; 
+  user-select:none;
+}
+#to-do-box li i{
+    position:absolute;
+    right:10px;
+    top:10px;
+}
+.done{
+    text-decoration:line-through;
+    color:black;
+    background-color:red !important;
+}
